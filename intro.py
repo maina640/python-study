@@ -7,12 +7,13 @@ print(fname)
 #  and stores them in variable called sum
 num1=10
 num2=20
-num1+num2
-print(sum) # output 30
+sum=num1+num2
+print(sum)
 # declare 2 variables fname lname add them up to get fullname
 fname="isaac"
 lname="maina"
-full_name=fname+lname
+full_name=fname+(" ")+lname
+print(full_name)
 
 
 

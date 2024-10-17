@@ -23,7 +23,7 @@ print
 
 
 first_name ="  Joh.n"
-second_name ="   Do,e"
+last_name ="   Do,e"
 first_name=first_name.strip()
 first_name=first_name.replace('.','')
 last_name=last_name.strip()
