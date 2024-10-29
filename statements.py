@@ -3,12 +3,12 @@ if 20>40:
 else:
     print('20 is less than')
 
-    #declare a variable marks then check if the marks is
-    #above 50 print pass otherwise print fail
-    marks=50
-    if marks>20:
+#declare a variable marks then check if the marks is
+#above 50 print pass otherwise print fail
+marks=40
+if marks>50:
         print('pass')
-    else:
+else:
         print('fail')
     
 #average_marks = 70
@@ -18,13 +18,13 @@ if (average_marks > 50) and (average_marks < 100):
 else:
     print('fail')
 
-    #if elif or else
-    #if 90>=100 (A)
-    #if 80>=90 (B)
-    #if 70>=80 (C)
-    #if 60>=70 (D)
-    #if 50>=60 (E)
-    #any below 50 (fail)
+#if elif or else
+#if 90>=100 (A)
+#if 80>=90 (B)
+#if 70>=80 (C)
+#if 60>=70 (D)
+#if 50>=60 (E)
+#any below 50 (fail)
 marks=int(input('enter marks: '))
 if marks>=90 and marks <=100:
     print('A')
