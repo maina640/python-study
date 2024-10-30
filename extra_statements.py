@@ -66,5 +66,5 @@ else:
     if y%2==0:
         print('only y is even')
     else:
-        print('')
+        print('Neither x nor y are even')
     

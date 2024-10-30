@@ -18,6 +18,8 @@ for num in range (20,101):
 
 #iterate through numbers from 20 to 100 and only display even numbers
 numbers=list(range(20,101))
+even_numbers=[]
 for i in numbers:
     if i%2==0:
-        print(i)
+        even_numbers.append(i)
+print(even_numbers)
