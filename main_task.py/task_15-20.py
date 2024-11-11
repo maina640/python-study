@@ -66,10 +66,3 @@ def find_NHIF_using_gross_sal(gs):
 
 NHIF=find_NHIF_using_gross_sal(gross_salary)
 print(NHIF)
-
-
-
-
-
-
-    
